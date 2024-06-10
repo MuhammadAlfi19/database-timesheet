@@ -1,0 +1,26 @@
+--- USER GUIDE ---
+  
+  1. Setting Database
+ -> Buka http://localhost/phpmyadmin/
+ -> Buat Database terlebih dahulu dengan nama "timesheet"
+ -> Jika sudah Import Databasenya
+ -> Pastikan bahwa sudah ke import semua untuk tablenya yaitu :
+    # user
+    # proyek
+    # kegiatan
+  Note : XAMPP Controller MYSQL dan APACHE harus jalan 
+
+  2. Setting Back End / Rest API - ExpressJs
+ -> Buka folder api-timesheet di vscode
+ -> Buka terminal vscode yang berada di folder tersebut
+ -> Lalu jalankan perintah berikut "npm install"
+ -> Jika sudah selesai proses install lalu jalankan Rest API-nya
+    dengan perintah "npm start"
+
+
+  3. Setting Front End / React JS
+ -> Buka folder timesheet di vscode
+ -> Buka terminal vscode yang berada di folder tersebut
+ -> Lalu jalankan perintah berikut "npm install"
+ -> Jika sudah selesai proses install lalu jalankan Front End-nya
+    dengan perintah "npm start"
